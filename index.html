@@ -1513,18 +1513,18 @@ body {
     var summaryEn = '';
     var summaryKo = '';
 
+    var scanned = data.meta ? data.meta.total_scanned : '?';
     if (picksCount === 0) {
-        summaryEn = 'Hey Suhyun! ' + date + ' — Scanned all 28 tickers and honestly, nothing clears our bar today. Sometimes the best trade is no trade. Stay patient, we\'ll find the setup.';
-        summaryKo = '수현님, 안녕하세요! ' + date + ' — 28개 종목 전부 분석했는데, 오늘은 기준을 통과하는 종목이 없네요. 때로는 쉬는 것도 전략이에요. 좋은 기회가 올 때까지 기다려요!';
+        summaryEn = date + ' — Scanned ' + scanned + ' tickers. Nothing clears our bar today. Sometimes the best trade is no trade.';
+        summaryKo = date + ' — ' + scanned + '개 종목 분석 완료. 오늘은 기준 통과 종목 없음. 쉬는 것도 전략입니다.';
     } else if (picksCount === 1) {
-        summaryEn = 'Good morning Suhyun! ' + date + ' — Out of 28 tickers, one caught our eye: ' + topTicker + ' (' + topStars + '★). ' + topTemplate + ' setup looking clean. As always, stick to your stops!';
-        summaryKo = '수현님, 좋은 아침이에요! ' + date + ' — 28개 종목 중 딱 하나 눈에 띄네요: ' + topTicker + ' (' + topStars + '★). ' + topTemplate + ' 셋업이 깔끔해요. 손절가 꼭 지키세요!';
+        summaryEn = date + ' — One pick out of ' + scanned + ': ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. Tight stops, sir.';
+        summaryKo = date + ' — ' + scanned + '개 중 1개 추천: ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. 손절 꼭 지키세요.';
     } else {
         var starsText = picks.map(function(p) { return p.ticker + ' ' + p.stars + '★'; }).join(', ');
-        var templates = picks.filter(function(p) { return !p.mandatory; }).map(function(p) { return p.template || ''; }).filter(Boolean);
-        var templateNote = templates.length ? ' Setup: ' + templates[0] + '.' : '';
-        summaryEn = 'Hey Suhyun! ' + date + ' — Found ' + picksCount + ' picks today: ' + starsText + '.' + templateNote + ' Check the details below, and remember — tight stops, let winners run.';
-        summaryKo = '수현님! ' + date + ' — 오늘 ' + picksCount + '개 추천 종목 찾았어요: ' + starsText + '.' + (templates.length ? ' 셋업: ' + templates[0] + '.' : '') + ' 아래 상세 분석 확인하시고, 손절은 꼭 지켜주세요!';
+        var topSetup = picks[0].template ? picks[0].template.replace('Template ', 'T') : '';
+        summaryEn = date + ' — ' + picksCount + ' picks from ' + scanned + ' scanned: ' + starsText + '.' + (topSetup ? ' Lead setup: ' + topSetup + '.' : '') + ' Stops in, emotions out.';
+        summaryKo = date + ' — ' + scanned + '개 중 ' + picksCount + '개 추천: ' + starsText + '.' + (topSetup ? ' 주요 셋업: ' + topSetup + '.' : '') + ' 손절 설정 필수, 감정은 배제.';
     }
 
     card.innerHTML = '<div style="font-size:15px;line-height:1.6;color:var(--text-2)">' + (lang === 'ko' ? summaryKo : summaryEn) + '</div>';
