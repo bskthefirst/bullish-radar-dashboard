@@ -716,6 +716,12 @@ body {
 }
 .footer-brand { color: var(--gold); font-weight: 600; }
 
+/* ── Daily Summary ── */
+.daily-summary {
+    background: linear-gradient(135deg, rgba(245,166,35,0.08), rgba(38,222,129,0.05));
+    border-color: var(--gold);
+}
+
 /* ── Loading ── */
 .loading {
   display: flex;
@@ -1000,6 +1006,26 @@ body {
     return 'rr-bad';
   }
 
+  function translateFundPart(text) {
+    if (lang !== 'ko') return text;
+    return text
+        .replace(/earnings growing/i, '이익 성장률')
+        .replace(/earnings declining/i, '이익 감소')
+        .replace(/Revenue growing/i, '매출 성장률')
+        .replace(/Op margin/i, '영업이익률')
+        .replace(/Net margin/i, '순이익률')
+        .replace(/Current ratio/i, '유동비율')
+        .replace(/Consensus: Strong Buy/i, '컨센서스: 적극 매수')
+        .replace(/Consensus: Buy/i, '컨센서스: 매수')
+        .replace(/Consensus: Hold/i, '컨센서스: 보유')
+        .replace(/Analyst upside/i, '애널리스트 목표 상승률')
+        .replace(/Institutional/i, '기관 보유율')
+        .replace(/Insider/i, '내부자 보유율')
+        .replace(/FCF positive/i, '잉여현금흐름 양호')
+        .replace(/OCF positive/i, '영업현금흐름 양호')
+        .replace(/vs sector median/i, 'vs 섹터 중간값');
+  }
+
   /* ── Signal grouping ── */
   var technicalSignals = [
     'Above 50 EMA','Golden Cross','MACD Bullish','RSI Oversold Recovery',
@@ -1111,8 +1137,14 @@ body {
     var row = el('div', 'news-row');
     (news || []).forEach(function(item) {
       var tag = (item.tag || 'neutral').toLowerCase();
+      var tagLabel = tag;
+      if (lang === 'ko') {
+          if (tag === 'bullish') tagLabel = '상승';
+          else if (tag === 'bearish') tagLabel = '하락';
+          else if (tag === 'neutral') tagLabel = '중립';
+      }
       var card = el('div', 'news-card tag-' + tag);
-      var tagPill = '<span class="news-tag ' + tag + '">' + tag + '</span>';
+      var tagPill = '<span class="news-tag ' + tag + '">' + tagLabel + '</span>';
       var insights = '';
       if (item.insights && item.insights.length) {
         insights = '<ul class="news-insights">' + item.insights.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul>';
@@ -1281,8 +1313,9 @@ body {
 
       /* Analysis */
       if (p.analysis) {
+        var analysisText = lang === 'ko' && p.analysis_ko ? p.analysis_ko : p.analysis;
         var aDv = el('div');
-        aDv.innerHTML = '<div class="section-title" style="margin-top:8px">' + t('analysis') + '</div><p style="font-size:13px;color:var(--text-3);line-height:1.6">' + p.analysis + '</p>';
+        aDv.innerHTML = '<div class="section-title" style="margin-top:8px">' + t('analysis') + '</div><p style="font-size:13px;color:var(--text-3);line-height:1.6">' + analysisText + '</p>';
         left.appendChild(aDv);
       }
 
@@ -1344,7 +1377,7 @@ body {
         var fsec = el('div');
         fsec.innerHTML = '<div class="section-title">' + t('fundamentals') + '</div>';
         var fl = el('ul', 'fund-list');
-        p.fund_analysis_parts.forEach(function(f) { fl.innerHTML += '<li>' + f + '</li>'; });
+        p.fund_analysis_parts.forEach(function(f) { fl.innerHTML += '<li>' + translateFundPart(f) + '</li>'; });
         fsec.appendChild(fl);
         right.appendChild(fsec);
       }
@@ -1462,6 +1495,39 @@ body {
     return footer;
   }
 
+  /* ── Render Daily Summary ── */
+  function renderDailySummary(data) {
+    var sec = el('section');
+    var card = el('div', 'card daily-summary');
+
+    var picks = data.picks || [];
+    var date = data.meta ? data.meta.date : '';
+    var picksCount = picks.length;
+    var tickers = picks.map(function(p) { return p.ticker; }).join(' & ');
+    var topStars = picks.length ? picks[0].stars : 0;
+    var topTicker = picks.length ? picks[0].ticker : '';
+    var topTemplate = picks.length ? (picks[0].template || '') : '';
+
+    var summaryEn = '';
+    var summaryKo = '';
+
+    if (picksCount === 0) {
+        summaryEn = date + ' — Nothing looks good today. Cash is a position too.';
+        summaryKo = date + ' — 오늘은 매수할 종목이 없습니다. 현금도 포지션입니다.';
+    } else if (picksCount === 1) {
+        summaryEn = date + ' — One standout today: ' + topTicker + ' (' + topStars + '★) with a ' + topTemplate.toLowerCase() + ' setup. Proceed with discipline.';
+        summaryKo = date + ' — 오늘의 유일한 추천: ' + topTicker + ' (' + topStars + '★), ' + topTemplate + ' 셋업. 원칙대로 매매하세요.';
+    } else {
+        var starsText = picks.map(function(p) { return p.ticker + ' ' + p.stars + '★'; }).join(', ');
+        summaryEn = date + ' — Today we like ' + tickers + '. ' + starsText + '. Both in squeeze territory — tight stops, let the breakout come to you.';
+        summaryKo = date + ' — 오늘의 추천: ' + tickers + '. ' + starsText + '. 스퀴즈 구간 진입 중 — 손절 타이트하게, 돌파를 기다리세요.';
+    }
+
+    card.innerHTML = '<div style="font-size:15px;line-height:1.6;color:var(--text-2)">' + (lang === 'ko' ? summaryKo : summaryEn) + '</div>';
+    sec.appendChild(card);
+    return sec;
+  }
+
   /* ── Render Dashboard ── */
   function renderDashboard(data) {
     var app = document.getElementById('app');
@@ -1475,6 +1541,7 @@ body {
 
     /* Main */
     var main = el('div', 'main');
+    main.appendChild(renderDailySummary(data));
     main.appendChild(renderNews(data.news));
     main.appendChild(renderWatchlist(data.watchlist));
     main.appendChild(renderRadarTable(data.picks));

@@ -1,26 +1,26 @@
 {
   "meta": {
     "date": "March 20, 2026",
-    "timestamp": "2026-03-20T14:45:42.662536",
+    "timestamp": "2026-03-20T15:08:48.807903",
     "total_scanned": 28,
     "picks_found": 2
   },
   "market": {
     "spy": {
-      "price": null,
-      "change_pct": null
+      "price": 648.54,
+      "change_pct": -1.71
     },
     "qqq": {
-      "price": null,
-      "change_pct": null
+      "price": 582.06,
+      "change_pct": -1.85
     },
     "iwm": {
-      "price": 240.92,
-      "change_pct": -2.71
+      "price": 242.22,
+      "change_pct": -2.18
     },
     "vix": {
-      "price": 28.3,
-      "change_pct": 17.62
+      "price": 27.72,
+      "change_pct": 15.21
     }
   },
   "performance": {
@@ -55,7 +55,7 @@
       "title": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway. - Barron's",
       "body": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway.\u00a0\u00a0Barron's",
       "score": 0,
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPRF9vZWV4Rmp6NlZlTmNfSVF0X210cXNid0d1aXNNLWlYWUlBdW5PenoyTjZ5VUp1ZXhCVk42N1FmMHRGS09tUm93czQzejRlbXZXVld5SXduREdscXBTQ0RfR2tWR3gzcmVoZjZLYWQ2MzJKczZyYlZWQURQUVFXUmg0ZkF2LUE0V3Y4WUlLdzJJWDYtUHoyOFZMRlN5b0dWSi03Y0VfbF9FdzEySFRFbDBvNGdyWlBZUTMydjBHeXZ1Tjk3Q3dRSUtVZmtxU0VVc3dXV3dmRmRIMnNsUEk3a2ZKMWg4TDNzcTlXMzExRnZLV0M2aEVvanh5T3h1YXBNQnFmWFZMVFhuQUdkVzU5eWFoOE9mRldLUnQ5OE0yUGYtV3ZJblRQNUlPc3hzM1QzTW03MXIwZUdOU2hfdU5PX1M5TVJVVlp4RHJSdFZkbWI3T2hSTlhJUVl4Y1U4Q251ZDFGS0JlZGhGdzhTZEVfSlIwVy1Sa2M3MGNZbW93?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNWjduX3JidjJmQ0kwQlRPb0pxUFpQVFF4Z0pDcHZJemlMWkRKMHAtb1JJd05MeU9NUkNrVjV3RExrbVVKZ3J3VW1EUHVCTnBCeFYxeHlQbkhYdXFSaS1MMWtWdm9MSkRYeWxJNXJ5M2RPUnZ5RVNfWG5rMEw5TEtfZGUyTDNrZ09iQkZsaEF4ZDFNNVRtWTVuWGRXa1J4SWZjZ0s1ZmE5N2NicU9nU1g1MkcyNGM2WXNBd3dhMlpoU0p2UUxWTFpOUG9KUnQ0clEwWHhPRlVPbEVEQ2dkSDEzZG9MVWVodVFKUHZwZHJtcnNaeWREVC1samVxdC02R0VBSGhRNEVTY0ZXSVRCbGo5Q1U3UXJyYWR6SlEtSTd2T1dhaWotYjZSUTRraUtUU21qQ0lDQ0hKb0JhTUdid3pMZ0ZrcTAwcFJsNlhJWmw1RGpHMjhxNHd6VTRGNzJpUUhJZVRnS3Q4bkNZTElEMFdEaGE0bXU5NHlmXzJnOFR3?oc=5",
       "tag": "bearish",
       "headline": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway. - Barron's",
       "summary": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway.\u00a0\u00a0Barron's",
@@ -64,161 +64,156 @@
   ],
   "picks": [
     {
-      "ticker": "AMD",
-      "price": 199.21,
-      "stars": 5,
-      "score": 87,
-      "template": "Template 4 \u2014 Squeeze",
-      "analysis": "RSI at 47 recovering from oversold. Squeezing for 11 days. Testing 200 EMA at $193.43. Strong uptrend structure: 8 HH, 8 HL in 20 bars. Accumulation detected (100% up-volume days). Fundamentals: EPS $2.61, earnings growing 217%. Revenue growing 34% YoY. Fwd PE 19x. Op margin 17% | Net margin 13%. D/E 6 | Current ratio 2.9. Consensus: Strong Buy (1.6) | Analyst upside 45%. Institutional 72%. FCF positive | OCF positive. Fwd PE 19x vs sector median 28x.",
+      "ticker": "MRVL",
+      "price": 87.93,
+      "stars": 4,
+      "score": 81,
+      "template": "Template 3 \u2014 MA Cloud Pullback",
+      "analysis": "RSI at 55 recovering from oversold. Testing 21 EMA at $86.00. Volume flow confirms uptrend (OBV > EMA). Strong uptrend structure: 11 HH, 8 HL in 20 bars. Accumulation detected (80% up-volume days). Fundamentals: EPS $3.07, earnings growing 106%. Revenue growing 22% YoY. Fwd PE 16x. Op margin 19% | Net margin 33%. Current ratio 2.0. ROE 19%. Consensus: Strong Buy (1.5) | Analyst upside 37%. Institutional 84%. FCF positive | OCF positive. Fwd PE 16x vs sector median 28x.",
+      "analysis_ko": "RSI 55 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uae30\uad00 \ub9e4\uc9d1 \uac10\uc9c0. \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $3.07, earnings growing 106%, \ub9e4\ucd9c \uc131\uc7a5\ub960 22% YoY, Fwd PE 16x, \uc601\uc5c5\uc774\uc775\ub960 19% | \uc21c\uc774\uc775\ub960 33%, Current ratio 2.0, ROE 19%, \ucee8\uc13c\uc11c\uc2a4: \uc801\uadf9 \ub9e4\uc218 (1.5) | Analyst upside 37%, \uae30\uad00 \ubcf4\uc720\uc728 84%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 16x vs sector median 28x. \uc9c4\uc785\uac00 $87.93 | \ubaa9\ud45c\uac00 $95.05 (+8.1%) | \uc190\uc808\uac00 $83.29 | R:R 1.5. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 +18.0% (\uc2dc\uc7a5 \ub300\ube44 \uac15\uc138)",
       "signals": {
-        "Above 50 EMA": false,
+        "Above 50 EMA": true,
         "Above 200 EMA": true,
         "Golden Cross": true,
         "MACD Bullish": true,
         "RSI Oversold Recovery": true,
-        "Squeeze (11d)": true,
-        "Bouncing off 200 EMA": true,
+        "Squeeze Active": false,
+        "Bouncing off 21 EMA": true,
         "Volume Surge": false,
-        "8 > 21 EMA": false,
-        "Choppy (ADX)": true,
+        "8 > 21 EMA": true,
+        "OBV Confirming": true,
         "Bullish Structure": true,
         "Accumulation": true,
-        "Weekly Trend Aligned": true,
         "Strong Earnings": true,
-        "Revenue +34%": true,
+        "Revenue +22%": true,
         "Valuation": false,
         "Strong Margins": true,
         "Solid Balance Sheet": true,
-        "Capital Efficiency": false,
+        "Capital Efficiency": true,
         "Strong Analyst Support": true,
         "Strong Ownership": true,
         "Positive Cash Flow": true,
         "Cheap vs Technology": true
       },
       "trade": {
-        "entry": 199.21,
-        "stop": 186.34,
-        "target1": 216.17,
-        "target2": 315.62,
-        "risk_pct": 6.5,
-        "target1_pct": 8.5,
-        "target2_pct": 58.4,
-        "rr": 1.3,
-        "stop_method": "1.5x ATR (aligned with support)",
-        "pivot": 201.33,
-        "r1": 209.82,
-        "s1": 196.77
+        "entry": 87.93,
+        "stop": 83.29,
+        "target1": 95.05,
+        "target2": 120.5,
+        "risk_pct": 5.3,
+        "target1_pct": 8.1,
+        "target2_pct": 37.0,
+        "rr": 1.5,
+        "stop_method": "Key support level",
+        "pivot": 88.13,
+        "r1": 91.14,
+        "s1": 86.53
       },
-      "rsi": 46.62028122164954,
-      "squeeze_days": 11,
-      "relative_strength": 6.7,
+      "rsi": 54.59150258194305,
+      "squeeze_days": 0,
+      "relative_strength": 18.0,
       "mandatory": false,
       "risk_metrics": {
-        "max_drawdown": -27.8,
-        "current_drawdown": -24.6,
-        "ann_volatility": 61.0,
-        "sharpe_ratio": 1.3,
-        "beta": 2.48,
-        "spy_correlation": 0.46
+        "max_drawdown": -26.4,
+        "current_drawdown": -12.2,
+        "ann_volatility": 55.7,
+        "sharpe_ratio": 0.84,
+        "beta": 2.15,
+        "spy_correlation": 0.44
       },
       "fund_analysis_parts": [
-        "EPS $2.61, earnings growing 217%",
-        "Revenue growing 34% YoY",
-        "Fwd PE 19x",
-        "Op margin 17% | Net margin 13%",
-        "D/E 6 | Current ratio 2.9",
-        "Consensus: Strong Buy (1.6) | Analyst upside 45%",
-        "Institutional 72%",
+        "EPS $3.07, earnings growing 106%",
+        "Revenue growing 22% YoY",
+        "Fwd PE 16x",
+        "Op margin 19% | Net margin 33%",
+        "Current ratio 2.0",
+        "ROE 19%",
+        "Consensus: Strong Buy (1.5) | Analyst upside 37%",
+        "Institutional 84%",
         "FCF positive | OCF positive",
-        "Fwd PE 19x vs sector median 28x"
+        "Fwd PE 16x vs sector median 28x"
       ],
       "volume_profile": {
-        "poc": 202.66,
-        "vah": 222.34,
-        "val": 188.22
+        "poc": 79.22,
+        "vah": 88.55,
+        "val": 76.37
       },
-      "relaxed_filter": true,
       "rank": 1,
       "caption": "",
-      "chart_file": "charts/AMD_2026-03-20.png"
+      "chart_file": "charts/MRVL_2026-03-20.png"
     },
     {
-      "ticker": "GOOG",
-      "price": 296.99,
-      "stars": 5,
-      "score": 78,
+      "ticker": "RKLB",
+      "price": 67.23,
+      "stars": 2,
+      "score": 43,
       "template": "Template 4 \u2014 Squeeze",
-      "analysis": "RSI at 38 recovering from oversold. Squeezing for 8 days. Strong uptrend structure: 6 HH, 6 HL in 20 bars. Accumulation detected (100% up-volume days). Fundamentals: EPS $10.82, earnings growing 31%. Revenue growing 18% YoY. Fwd PE 22x. Op margin 32% | Net margin 33%. D/E 16 | Current ratio 2.0. ROE 36% | ROA 15%. Consensus: Strong Buy (1.4) | Analyst upside 21%. Insider 6.6% | Institutional 61%. FCF positive | OCF positive. Fwd PE 22x vs sector median 22x.",
+      "analysis": "RSI at 45 recovering from oversold. Squeezing for 15 days. Strong uptrend structure: 8 HH, 11 HL in 20 bars. Fundamentals: EPS $-0.37. Revenue growing 36% YoY. Fwd PE 509x. D/E 15 | Current ratio 4.1. Consensus: Buy (1.8) | Analyst upside 34%. Fwd PE 509x vs sector median 18x (premium).",
+      "analysis_ko": "RSI 45 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. 15\uc77c\uac04 \uc2a4\ud034\uc988 \uc9c4\ud589 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $-0.37, \ub9e4\ucd9c \uc131\uc7a5\ub960 36% YoY, Fwd PE 509x, D/E 15 | \uc720\ub3d9\ube44\uc728 4.1, \ucee8\uc13c\uc11c\uc2a4: \ub9e4\uc218 (1.8) | Analyst upside 34%, Fwd PE 509x vs sector median 18x (premium). \uc9c4\uc785\uac00 $67.23 | \ubaa9\ud45c\uac00 $78.97 (+17.5%) | \uc190\uc808\uac00 $63.46 | R:R 3.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 +0.7% (\uc2dc\uc7a5 \ub300\ube44 \uac15\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -30.2% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
       "signals": {
         "Above 50 EMA": false,
         "Above 200 EMA": true,
         "Golden Cross": true,
         "MACD Bullish": true,
         "RSI Oversold Recovery": true,
-        "Squeeze (8d)": true,
+        "Squeeze (15d)": true,
         "Volume Surge": false,
         "8 > 21 EMA": false,
         "Bullish Structure": true,
-        "Accumulation": true,
         "Weekly Downtrend": true,
-        "Strong Earnings": true,
-        "Revenue +18%": true,
+        "Earnings": false,
+        "Revenue +36%": true,
         "Valuation": false,
-        "Strong Margins": true,
+        "Margins": false,
         "Solid Balance Sheet": true,
-        "High Capital Efficiency": true,
+        "Capital Efficiency": false,
         "Strong Analyst Support": true,
-        "Strong Ownership": true,
-        "Positive Cash Flow": true,
-        "Cheap vs Communication Services": true
+        "Ownership": false,
+        "Cash Flow": false,
+        "PE vs Industrials": false
       },
       "trade": {
-        "entry": 296.99,
-        "stop": 283.89,
-        "target1": 310.63,
-        "target2": 384.89,
-        "risk_pct": 4.4,
-        "target1_pct": 4.6,
-        "target2_pct": 29.6,
-        "rr": 1.0,
-        "stop_method": "1.5x ATR (aligned with support)",
-        "pivot": 304.47,
-        "r1": 307.94,
-        "s1": 302.26
+        "entry": 67.23,
+        "stop": 63.46,
+        "target1": 78.97,
+        "target2": 121.65,
+        "risk_pct": 5.6,
+        "target1_pct": 17.5,
+        "target2_pct": 80.9,
+        "rr": 3.1,
+        "stop_method": "Key support level",
+        "pivot": 70.89,
+        "r1": 73.77,
+        "s1": 69.04
       },
-      "rsi": 38.067897139352944,
-      "squeeze_days": 8,
+      "rsi": 44.84774939597902,
+      "squeeze_days": 15,
       "relative_strength": 0.7,
       "mandatory": false,
       "risk_metrics": {
-        "max_drawdown": -13.9,
-        "current_drawdown": -13.9,
-        "ann_volatility": 26.3,
-        "sharpe_ratio": 2.66,
-        "beta": 1.2,
-        "spy_correlation": 0.52
+        "max_drawdown": -43.0,
+        "current_drawdown": -30.2,
+        "ann_volatility": 84.1,
+        "sharpe_ratio": 1.75,
+        "beta": 2.9,
+        "spy_correlation": 0.39
       },
       "fund_analysis_parts": [
-        "EPS $10.82, earnings growing 31%",
-        "Revenue growing 18% YoY",
-        "Fwd PE 22x",
-        "Op margin 32% | Net margin 33%",
-        "D/E 16 | Current ratio 2.0",
-        "ROE 36% | ROA 15%",
-        "Consensus: Strong Buy (1.4) | Analyst upside 21%",
-        "Insider 6.6% | Institutional 61%",
-        "FCF positive | OCF positive",
-        "Fwd PE 22x vs sector median 22x"
+        "EPS $-0.37",
+        "Revenue growing 36% YoY",
+        "Fwd PE 509x",
+        "D/E 15 | Current ratio 4.1",
+        "Consensus: Buy (1.8) | Analyst upside 34%",
+        "Fwd PE 509x vs sector median 18x (premium)"
       ],
       "volume_profile": {
-        "poc": 306.11,
-        "vah": 331.41,
-        "val": 299.55
+        "poc": 69.23,
+        "vah": 85.3,
+        "val": 65.06
       },
-      "relaxed_filter": true,
       "rank": 2,
       "caption": "",
-      "chart_file": "charts/GOOG_2026-03-20.png"
+      "chart_file": "charts/RKLB_2026-03-20.png"
     }
   ],
   "pick_history": [
@@ -226,18 +221,18 @@
       "date": "2026-03-20",
       "picks": [
         {
-          "ticker": "AMD",
-          "entry": 199.21,
-          "target1": 216.17,
-          "stop": 186.34,
-          "stars": 5
+          "ticker": "MRVL",
+          "entry": 87.93,
+          "target1": 95.05,
+          "stop": 83.29,
+          "stars": 4
         },
         {
-          "ticker": "GOOG",
-          "entry": 296.99,
-          "target1": 310.63,
-          "stop": 283.89,
-          "stars": 5
+          "ticker": "RKLB",
+          "entry": 67.23,
+          "target1": 78.97,
+          "stop": 63.46,
+          "stars": 2
         }
       ]
     }
@@ -250,7 +245,7 @@
       },
       {
         "ticker": "AMD",
-        "picked": true
+        "picked": false
       },
       {
         "ticker": "AVGO",
@@ -262,7 +257,7 @@
       },
       {
         "ticker": "MRVL",
-        "picked": false
+        "picked": true
       }
     ],
     "Mega-Cap Tech": [
@@ -276,7 +271,7 @@
       },
       {
         "ticker": "GOOG",
-        "picked": true
+        "picked": false
       },
       {
         "ticker": "AMZN",
@@ -324,7 +319,7 @@
       },
       {
         "ticker": "RKLB",
-        "picked": false
+        "picked": true
       },
       {
         "ticker": "SOFI",
