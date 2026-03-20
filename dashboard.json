@@ -7,12 +7,12 @@
   },
   "market": {
     "spy": {
-      "price": NaN,
-      "change_pct": NaN
+      "price": null,
+      "change_pct": null
     },
     "qqq": {
-      "price": NaN,
-      "change_pct": NaN
+      "price": null,
+      "change_pct": null
     },
     "iwm": {
       "price": 240.92,
