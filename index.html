@@ -327,6 +327,11 @@ body {
   color: var(--text-4);
   border: 1px solid var(--border);
 }
+.wl-pill-news {
+  background: rgba(245,166,35,0.2);
+  color: #f5a623;
+  border: 1px solid rgba(245,166,35,0.3);
+}
 
 /* ── Picks Radar Table ── */
 .table-wrap {
@@ -369,6 +374,7 @@ body {
   font-size: 14px;
   color: var(--text-1);
 }
+.news-tag { color: #f5a623; font-size: 12px; margin-left: 2px; }
 .td-stars { color: var(--gold); letter-spacing: 1px; font-size: 14px; }
 .td-mono { font-family: var(--mono); color: var(--text-2); }
 
@@ -1172,8 +1178,11 @@ body {
       var pills = el('div', 'wl-pills');
       watchlist[sector].forEach(function(item) {
         var isPicked = item.picked;
-        var pill = el('span', 'wl-pill ' + (isPicked ? 'wl-pill-picked' : 'wl-pill-normal'),
-          (isPicked ? '\u2605 ' : '') + item.ticker);
+        var isNews = item.news_driven;
+        var cls = 'wl-pill ' + (isPicked ? 'wl-pill-picked' : isNews ? 'wl-pill-news' : 'wl-pill-normal');
+        var prefix = isPicked ? '\u2605 ' : isNews ? '\u26A1 ' : '';
+        var pill = el('span', cls, prefix + item.ticker);
+        if (isNews) pill.title = lang === 'ko' ? '뉴스 기반 발굴' : 'News-driven discovery';
         pills.appendChild(pill);
       });
       group.appendChild(pills);
@@ -1208,9 +1217,10 @@ body {
       var rr = p.trade ? p.trade.rr : 0;
       var rs = p.relative_strength || 0;
       var scoreVal = p.score || 0;
+      var newsTag = p.news_driven ? ' <span class="news-tag" title="News-driven discovery">\u26A1</span>' : '';
       tr.innerHTML =
         '<td class="td-mono">' + (p.rank || '') + '</td>' +
-        '<td class="td-ticker">' + p.ticker + '</td>' +
+        '<td class="td-ticker">' + p.ticker + newsTag + '</td>' +
         '<td class="td-stars">' + stars(p.stars) + '</td>' +
         '<td><div class="score-cell"><span class="score-num">' + scoreVal + '</span><div class="score-bar-track"><div class="score-bar-fill" style="width:' + scoreVal + '%"></div></div></div></td>' +
         '<td class="td-template radar-hide-mobile">' + (p.template || '') + '</td>' +

@@ -1,8 +1,8 @@
 {
   "meta": {
     "date": "March 20, 2026",
-    "timestamp": "2026-03-20T15:33:33.955239",
-    "total_scanned": 28,
+    "timestamp": "2026-03-20T16:08:37.242965",
+    "total_scanned": 29,
     "picks_found": 3
   },
   "market": {
@@ -55,17 +55,43 @@
       "summary_ko": "AI \uae30\ubc18 \ubc18\ub3c4\uccb4 \uc218\uc694 \ub3c4\uc6c0 TSM Meet 2026 \ub9e4\ucd9c \uc131\uc7a5 Goal?\u00a0\u00a0Zacks Investment Research"
     },
     {
+      "source": "Reuters",
+      "title": "Micron forecasts strong revenue on AI boom; higher spending plan knocks shares - Reuters",
+      "body": "Micron forecasts strong revenue on AI boom; higher spending plan knocks shares\u00a0\u00a0Reuters",
+      "score": 0,
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMzNUOFJSSUtqMEVvcmJOaWFwWDdmMTAtZERCdkN3TnY5OGcyOGFGLVZVeDV3RWd6QTlIWnNoNDlNc0k2QTMyUWJqTy1jd04tNmFVLTZTTkI4ZGJlbmpKM0FhVGhLdGFCclNjU1NGenk2SE5pSTJCdnJMdm9PYTNUQ0xGbU5qZnlaMUpuMWR0dnNSZw?oc=5",
+      "tag": "neutral",
+      "headline": "Micron forecasts strong revenue on AI boom; higher spending plan knocks shares - Reuters",
+      "summary": "Micron forecasts strong revenue on AI boom; higher spending plan knocks shares\u00a0\u00a0Reuters",
+      "insights": [],
+      "headline_ko": "Micron \uc804\ub9dds strong \ub9e4\ucd9c on AI boom; higher spending plan knocks shares - Reuters",
+      "summary_ko": "Micron \uc804\ub9dds strong \ub9e4\ucd9c on AI boom; higher spending plan knocks shares\u00a0\u00a0Reuters"
+    },
+    {
       "source": "Barron's",
       "title": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway. - Barron's",
       "body": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway.\u00a0\u00a0Barron's",
       "score": 0,
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxPVUdfNGRHVHNsYUdNTVc5bHd2QTE0MTE0WDdSWTZmeTNsTkc2U1EwUGl2VDFoX2lObHFmRzlvSkhwbVVLX1EzRjQzc1NMNkhGQlFjaVZfQ2dlNXA5RDJELTJmYW5sZTIyb1IyQUMydmRzcFBOLUpuV1B1dmJkYTYxUDBUejVNckY5bWgxZ1V5cjZGWnJsaF80ZVlKZG83OU10UDY3R0M3RkVMZ21MMDBndlMyZDI5OVFyM1h5R3dFaUtjZ09pcWVnRmY5Q3hQRUw4RmRzQ1h3LWd6MGxXUzA3LXdmWEx2LU9LWVJROTA1ZG1jckd1dXFyUzR5cTkzT21WR1gwa29zSk9jVVY5andndHJhRzh5YmpsUlY3WkFlM283d1FhbDNnOUdxNjNLYjlKaUtSdlFWa1ctNEdqN0xZUWZmU2YyaGdsbWN1Q3o1Q2hQVjkyLUszc2doZjUtUWRKTnlYa3BPd0FiZG50dHA5R0l1Z1FhZml4R3lMZTZ3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNbGt1ZXpQd0RoMnJJTFBFcEFyV0p4MnV6Q3VnRXRKNGlLaENvbk5XVjBoemtqQlMxbkdSZFktRm5SaWFsaEdZanJ1bnBWT1dsaGlLN21yRDMzM0hVS0lNZ0pfd2tWMUxYbnV1Vmp2ZnhqQXJwTTRpZlpIc3JJQ3dUX1hPbkk0Zk5fbVRkQU9wbTc5czVnYlNldkVsWkY2cjVkbDFoWkI1a1BwYnkxM0tHY00tV19qV0cwcG1UWmRXYU9SQkt4MzlLV05ob0V1SDhLUlFJUjZRU1F1dGJjM2RVVnBzT3lSRjJjUHpvNndtcG1OWDF1RTZxOWRBbnpUR2RZYXowZ0ZfOUZsN250bXR2MWd1Q0JIQkpja1U3aUc1UXN4U2toOFJRWmdLWVBEc3YtUWtGZjRpV1hjXzU5cl93bENDYjJFbUdlOW1YSjJxU3BtcEtueDZoLUo1U1Z5YlRxQ2xvbFpEZ0FXU0hUOFNUYmQ4NUZzQVlibUtkWEtB?oc=5",
       "tag": "bearish",
       "headline": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway. - Barron's",
       "summary": "Micron Earnings Were Exceptional. Why the Stock Is Falling Anyway.\u00a0\u00a0Barron's",
       "insights": [],
       "headline_ko": "Micron \uc2e4\uc801 Were \ud638\uc2e4\uc801. \uc65c the \uc8fc\uac00 Is \ud558\ub77d Anyway. - Barron's",
       "summary_ko": "Micron \uc2e4\uc801 Were \ud638\uc2e4\uc801. \uc65c the \uc8fc\uac00 Is \ud558\ub77d Anyway.\u00a0\u00a0Barron's"
+    },
+    {
+      "source": "The Motley Fool",
+      "title": "The Only 2 Artificial Intelligence (AI) Stocks You Need to Hold Through 2035 - The Motley Fool",
+      "body": "The Only 2 Artificial Intelligence (AI) Stocks You Need to Hold Through 2035\u00a0\u00a0The Motley Fool",
+      "score": 0,
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMU5VOElTR2xlVENTbUZBSHZVUGxaWmpfcThsVll0eUNvNXZsWXM3cEF3MXgxeG9hN3J2bDRZZWRDT0U5cDZLVXZ4UHhueVREM1ZNcUprZlRFZkZ4aVAtSmF3b2JnSjZLRG8yYmU4SzY3RlJnbjFsOF9KZXFfWmJ1LUpwUTNPMk9ETFF3VHVCVWNCNWdsWWc?oc=5",
+      "tag": "neutral",
+      "headline": "The Only 2 Artificial Intelligence (AI) Stocks You Need to Hold Through 2035 - The Motley Fool",
+      "summary": "The Only 2 Artificial Intelligence (AI) Stocks You Need to Hold Through 2035\u00a0\u00a0The Motley Fool",
+      "insights": [],
+      "headline_ko": "The Only 2 Artificial Intelligence (AI) \uc8fc\uac00s You Need to Hold Through 2035 - The Motley Fool",
+      "summary_ko": "The Only 2 Artificial Intelligence (AI) \uc8fc\uac00s You Need to Hold Through 2035\u00a0\u00a0The Motley Fool"
     }
   ],
   "picks": [
@@ -155,7 +181,7 @@
       "score": 43,
       "template": "Template 4 \u2014 Squeeze",
       "analysis": "RSI at 45 recovering from oversold. Squeezing for 15 days. Strong uptrend structure: 8 HH, 11 HL in 20 bars. Fundamentals: EPS $-0.37. Revenue growing 36% YoY. Fwd PE 509x. D/E 15 | Current ratio 4.1. Consensus: Buy (1.8) | Analyst upside 34%. Fwd PE 509x vs sector median 18x (premium).",
-      "analysis_ko": "RSI 45 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. 15\uc77c\uac04 \uc2a4\ud034\uc988 \uc9c4\ud589 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $-0.37, \ub9e4\ucd9c \uc131\uc7a5\ub960 36% YoY, Fwd PE 509x, D/E 15 | \uc720\ub3d9\ube44\uc728 4.1, \ucee8\uc13c\uc11c\uc2a4: \ub9e4\uc218 (1.8) | Analyst upside 34%, Fwd PE 509x vs sector median 18x (premium). \uc9c4\uc785\uac00 $67.23 | \ubaa9\ud45c\uac00 $78.97 (+17.5%) | \uc190\uc808\uac00 $63.46 | R:R 3.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 +0.7% (\uc2dc\uc7a5 \ub300\ube44 \uac15\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -30.2% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
+      "analysis_ko": "RSI 45 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. 15\uc77c\uac04 \uc2a4\ud034\uc988 \uc9c4\ud589 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $-0.37, \ub9e4\ucd9c \uc131\uc7a5\ub960 36% YoY, Fwd PE 509x, D/E 15 | \uc720\ub3d9\ube44\uc728 4.1, \ucee8\uc13c\uc11c\uc2a4: \ub9e4\uc218 (1.8) | Analyst upside 34%, Fwd PE 509x vs sector median 18x (premium). \uc9c4\uc785\uac00 $67.23 | \ubaa9\ud45c\uac00 $78.98 (+17.5%) | \uc190\uc808\uac00 $63.46 | R:R 3.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 +0.7% (\uc2dc\uc7a5 \ub300\ube44 \uac15\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -30.2% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
       "signals": {
         "Above 50 EMA": false,
         "Above 200 EMA": true,
@@ -181,7 +207,7 @@
       "trade": {
         "entry": 67.23,
         "stop": 63.46,
-        "target1": 78.97,
+        "target1": 78.98,
         "target2": 121.65,
         "risk_pct": 5.6,
         "target1_pct": 17.5,
@@ -313,7 +339,7 @@
         {
           "ticker": "RKLB",
           "entry": 67.23,
-          "target1": 78.97,
+          "target1": 78.98,
           "stop": 63.46,
           "stars": 2
         },
@@ -331,125 +357,160 @@
     "AI / Semiconductors": [
       {
         "ticker": "NVDA",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "AMD",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "AVGO",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "SMCI",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "MRVL",
-        "picked": true
+        "picked": true,
+        "news_driven": false
       }
     ],
     "Mega-Cap Tech": [
       {
         "ticker": "AAPL",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "MSFT",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "GOOG",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "AMZN",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "META",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "TSLA",
-        "picked": true
+        "picked": true,
+        "news_driven": false
       }
     ],
     "Energy / Commodities": [
       {
         "ticker": "XOM",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "CVX",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "GLD",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "SLV",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "USO",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       }
     ],
     "Growth / Momentum": [
       {
         "ticker": "PLTR",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "COIN",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "RKLB",
-        "picked": true
+        "picked": true,
+        "news_driven": false
       },
       {
         "ticker": "SOFI",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "HOOD",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       }
     ],
     "Income / Covered Call ETFs": [
       {
         "ticker": "GPIX",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "GPIQ",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       }
     ],
     "ETFs / Market Indices": [
       {
         "ticker": "SPY",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "QQQ",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "IWM",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "ARKK",
-        "picked": false
+        "picked": false,
+        "news_driven": false
       },
       {
         "ticker": "XLF",
-        "picked": false
+        "picked": false,
+        "news_driven": false
+      }
+    ],
+    "Breaking / News-Driven": [
+      {
+        "ticker": "TSM",
+        "picked": false,
+        "news_driven": false
       }
     ],
     "User Additions": []
