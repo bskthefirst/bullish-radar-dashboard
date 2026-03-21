@@ -1578,17 +1578,23 @@ body {
     var summaryKo = '';
 
     var scanned = data.meta ? data.meta.total_scanned : '?';
+    var regime = data.meta ? (data.meta.market_regime || 'unknown') : 'unknown';
+    var regimeEmoji = {bull: '🟢', recovery: '🟡', pullback: '🟠', bear: '🔴', unknown: '⚪'}[regime] || '⚪';
+    var regimeLabelEn = {bull: 'Bull market', recovery: 'Recovery', pullback: 'Pullback', bear: 'Bear market', unknown: 'Market'}[regime] || 'Market';
+    var regimeLabelKo = {bull: '상승장', recovery: '회복세', pullback: '조정', bear: '하락장', unknown: '시장'}[regime] || '시장';
+    var regimeTagEn = ' <span style="background:rgba(255,255,255,0.07);padding:1px 7px;border-radius:10px;font-size:12px;">' + regimeEmoji + ' ' + regimeLabelEn + '</span>';
+    var regimeTagKo = ' <span style="background:rgba(255,255,255,0.07);padding:1px 7px;border-radius:10px;font-size:12px;">' + regimeEmoji + ' ' + regimeLabelKo + '</span>';
     if (picksCount === 0) {
-        summaryEn = date + ' — Scanned ' + scanned + ' tickers. Nothing clears our bar today. Sometimes the best trade is no trade.';
-        summaryKo = date + ' — ' + scanned + '개 종목 분석 완료. 오늘은 기준 통과 종목 없음. 쉬는 것도 전략입니다.';
+        summaryEn = date + regimeTagEn + ' — Scanned ' + scanned + ' tickers. Nothing clears our bar today. Sometimes the best trade is no trade.';
+        summaryKo = date + regimeTagKo + ' — ' + scanned + '개 종목 분석 완료. 오늘은 기준 통과 종목 없음. 쉬는 것도 전략입니다.';
     } else if (picksCount === 1) {
-        summaryEn = date + ' — One pick out of ' + scanned + ': ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. Tight stops, sir.';
-        summaryKo = date + ' — ' + scanned + '개 중 1개 추천: ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. 손절 꼭 지키세요.';
+        summaryEn = date + regimeTagEn + ' — One pick out of ' + scanned + ': ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. Tight stops, sir.';
+        summaryKo = date + regimeTagKo + ' — ' + scanned + '개 중 1개 추천: ' + topTicker + ' (' + topStars + '★). ' + topTemplate.replace('Template ', 'T') + '. 손절 꼭 지키세요.';
     } else {
         var starsText = picks.map(function(p) { return p.ticker + ' ' + p.stars + '★'; }).join(', ');
         var topSetup = picks[0].template ? picks[0].template.replace('Template ', 'T') : '';
-        summaryEn = date + ' — ' + picksCount + ' picks from ' + scanned + ' scanned: ' + starsText + '.' + (topSetup ? ' Lead setup: ' + topSetup + '.' : '') + ' Stops in, emotions out.';
-        summaryKo = date + ' — ' + scanned + '개 중 ' + picksCount + '개 추천: ' + starsText + '.' + (topSetup ? ' 주요 셋업: ' + topSetup + '.' : '') + ' 손절 설정 필수, 감정은 배제.';
+        summaryEn = date + regimeTagEn + ' — ' + picksCount + ' picks from ' + scanned + ' scanned: ' + starsText + '.' + (topSetup ? ' Lead setup: ' + topSetup + '.' : '') + ' Stops in, emotions out.';
+        summaryKo = date + regimeTagKo + ' — ' + scanned + '개 중 ' + picksCount + '개 추천: ' + starsText + '.' + (topSetup ? ' 주요 셋업: ' + topSetup + '.' : '') + ' 손절 설정 필수, 감정은 배제.';
     }
 
     card.innerHTML = '<div style="font-size:15px;line-height:1.6;color:var(--text-2)">' + (lang === 'ko' ? summaryKo : summaryEn) + '</div>';
