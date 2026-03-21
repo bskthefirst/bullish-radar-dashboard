@@ -43,6 +43,9 @@ body {
   grid-template-columns: var(--sidebar-w) 1fr;
   min-height: 100vh;
 }
+#app:has(.loading), #app:has(.no-data) {
+  grid-template-columns: 1fr;
+}
 
 .sidebar {
   position: sticky;
@@ -237,7 +240,7 @@ body {
 .pill-1 { background: rgba(255,69,96,0.15); color: var(--red); }
 
 /* ── News ── */
-.news-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.news-row { display: flex; flex-direction: column; gap: 14px; }
 .news-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -762,8 +765,8 @@ body {
 
 /* ── Responsive ── */
 @media (max-width: 1024px) {
-  #app {
-    grid-template-columns: 1fr;
+  #app, #app[style] {
+    grid-template-columns: 1fr !important;
   }
   .sidebar {
     position: relative;
@@ -772,63 +775,119 @@ body {
     border-bottom: 1px solid var(--border);
   }
   .main { padding: 24px 16px; }
-  .news-row { grid-template-columns: 1fr; }
+  .news-row { gap: 12px; }
 }
 
 @media (max-width: 768px) {
-  .main { padding: 16px 12px; gap: 24px; }
-  .news-row { grid-template-columns: 1fr; }
-  .news-card { padding: 14px; gap: 8px; }
-  .news-headline { font-size: 14px; }
-  .news-summary { font-size: 12px; }
+  #app, #app[style] {
+    grid-template-columns: 1fr !important;
+  }
+  .sidebar {
+    position: relative;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 20px 16px;
+    gap: 18px;
+  }
+  .main { padding: 16px 12px; gap: 20px; }
+  .news-row { grid-template-columns: 1fr; gap: 12px; }
+  .news-card { padding: 16px; gap: 8px; }
+  .news-headline { font-size: 15px; }
+  .news-summary { font-size: 13px; }
+  .news-insights li { font-size: 12px; }
   .table-wrap { border-radius: var(--radius-sm); }
-  .radar-table th, .radar-table td { padding: 8px 10px; font-size: 12px; }
+  .radar-table th, .radar-table td { padding: 10px 10px; font-size: 13px; }
   .radar-hide-mobile { display: none; }
   .heatmap-wrap { -webkit-overflow-scrolling: touch; }
   .detail-body { grid-template-columns: 1fr; }
   .risk-grid { grid-template-columns: repeat(2, 1fr); }
-  .market-grid { gap: 8px; }
-  .perf-sub-grid { gap: 8px; }
+  .market-grid { gap: 10px; }
+  .perf-sub-grid { gap: 10px; }
   .section-title { font-size: 12px; }
-  .card { padding: 16px; }
+  .card { padding: 18px 14px; }
+
+  /* Watchlist */
+  .wl-sector-group { margin-bottom: 16px; }
+  .wl-pills { gap: 8px; }
+  .wl-pill { font-size: 13px; padding: 6px 12px; border-radius: 16px; }
+
+  /* Detail cards */
+  .detail-header { padding: 14px 16px; gap: 10px; flex-wrap: wrap; }
+  .detail-header-template { display: none; }
+  .detail-body { padding: 0 16px 16px; gap: 16px; }
+
+  /* Performance table */
+  .perf-table th, .perf-table td { padding: 10px 8px; font-size: 12px; }
+  .perf-hide-mobile { display: none; }
+
+  /* Logo */
+  .logo-text { font-size: 20px; }
+  .perf-hero-value { font-size: 42px; }
+
+  /* Market tiles readable */
+  .market-price { font-size: 18px; }
+  .market-change { font-size: 13px; }
+  .market-ticker { font-size: 12px; }
+
+  /* Daily summary */
+  .daily-summary { padding: 16px !important; }
+
+  /* Heatmap */
+  .heatmap-cell { width: 26px; min-width: 26px; height: 26px; }
+  .heatmap-dot { width: 20px; height: 20px; }
+  .heatmap-signal-header { width: 26px; min-width: 26px; }
 }
 
 @media (max-width: 480px) {
-  .sidebar { padding: 16px 12px; gap: 16px; }
-  .main { padding: 12px 8px; gap: 20px; }
+  .sidebar { padding: 16px 14px; gap: 16px; }
+  .main { padding: 14px 10px; gap: 18px; }
   .card { padding: 16px 12px; }
 
+  /* Market tiles */
   .market-grid { gap: 8px; }
-  .market-tile { padding: 8px; }
-  .market-price { font-size: 15px; }
+  .market-tile { padding: 10px 8px; }
+  .market-price { font-size: 16px; }
+  .market-change { font-size: 12px; }
 
-  .radar-table { font-size: 11px; }
-  .radar-table th, .radar-table td { padding: 6px 8px; }
-  .radar-hide-mobile { display: none; }
+  /* Radar table */
+  .radar-table { font-size: 12px; }
+  .radar-table th, .radar-table td { padding: 8px 8px; }
 
-  .heatmap-table { font-size: 9px; }
+  /* Heatmap scroll */
   .heatmap-cell { width: 24px; min-width: 24px; height: 24px; }
   .heatmap-dot { width: 18px; height: 18px; }
   .heatmap-signal-header { width: 24px; min-width: 24px; }
   .heatmap-signal-header span { width: 24px; font-size: 9px; }
 
-  .detail-chart img { border-radius: 6px; }
-  .detail-body { gap: 12px; }
-  .detail-header { padding: 12px; gap: 10px; }
+  /* Detail cards */
+  .detail-header { padding: 12px 14px; }
   .detail-header-ticker { font-size: 16px; }
+  .detail-body { gap: 14px; padding: 0 14px 14px; }
 
+  /* Risk grid stays 2-col */
   .risk-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
 
-  .wl-pill { font-size: 11px; padding: 2px 8px; }
+  /* Watchlist pills */
+  .wl-pill { font-size: 12px; padding: 5px 10px; }
 
-  .perf-table th, .perf-table td { padding: 8px 8px; font-size: 11px; }
+  /* Perf table */
+  .perf-table th, .perf-table td { padding: 8px 6px; font-size: 11px; }
 
   .section-title { font-size: 11px; margin-bottom: 10px; }
-
   .logo-text { font-size: 18px; letter-spacing: 2px; }
   .logo-sub { font-size: 10px; }
-
   .perf-hero-value { font-size: 36px; }
+
+  /* News */
+  .news-card { padding: 14px; }
+  .news-headline { font-size: 14px; }
+  .news-summary { font-size: 12px; }
+  .news-source { font-size: 10px; }
+
+  /* Footer */
+  .dashboard-footer { padding: 20px 12px; font-size: 11px; }
+  .footer-disclaimer { font-size: 10px; }
 }
 </style>
 </head>
@@ -1033,15 +1092,13 @@ body {
   }
 
   /* ── Signal grouping ── */
-  var technicalSignals = [
-    'Above 50 EMA','Golden Cross','MACD Bullish','RSI Oversold Recovery',
-    'Squeeze (5d)','Volume Surge','ADX Trend','OBV Confirmation',
-    'Weekly Alignment','Bullish Structure'
-  ];
-  var fundamentalSignals = [
-    'Accumulation','EMA 8/21 Cross','RSI Divergence','Vol Coiling','Relative Strength'
-  ];
-  var allSignals = technicalSignals.concat(fundamentalSignals);
+  function collectSignals(picks) {
+    var seen = {};
+    (picks || []).forEach(function(p) {
+      if (p.signals) Object.keys(p.signals).forEach(function(k) { seen[k] = true; });
+    });
+    return Object.keys(seen);
+  }
 
   /* ── Render Sidebar ── */
   function renderSidebar(data) {
@@ -1152,12 +1209,13 @@ body {
       var card = el('div', 'news-card tag-' + tag);
       var tagPill = '<span class="news-tag ' + tag + '">' + tagLabel + '</span>';
       var insights = '';
-      if (item.insights && item.insights.length) {
-        insights = '<ul class="news-insights">' + item.insights.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul>';
+      var insightsList = (lang === 'ko' && item.insights_ko && item.insights_ko.length) ? item.insights_ko : (item.insights || []);
+      if (insightsList.length) {
+        insights = '<ul class="news-insights">' + insightsList.map(function(i) { return '<li>' + i + '</li>'; }).join('') + '</ul>';
       }
       var src = item.source ? '<div class="news-source">' + item.source + (item.url ? ' &middot; <a href="' + item.url + '" target="_blank" rel="noopener">' + t('read') + '</a>' : '') + '</div>' : '';
-      var headlineText = lang === 'ko' && item.headline_ko ? item.headline_ko : item.headline;
-      var summaryText = lang === 'ko' && item.summary_ko ? item.summary_ko : (item.summary || '');
+      var headlineText = (lang === 'ko' && item.headline_ko) ? item.headline_ko : (item.headline || item.title || '');
+      var summaryText = (lang === 'ko' && item.summary_ko) ? item.summary_ko : (item.summary || item.body || '');
       card.innerHTML = tagPill + '<div class="news-headline">' + headlineText + '</div><div class="news-summary">' + summaryText + '</div>' + insights + src;
       row.appendChild(card);
     });
@@ -1239,16 +1297,13 @@ body {
 
   /* ── Render Heatmap ── */
   function renderHeatmap(picks) {
+    var allSignals = collectSignals(picks);
+    if (!allSignals.length) return el('div');
+
     var sec = el('section');
     sec.appendChild(el('div', 'section-title', t('signal_heatmap')));
     var wrap = el('div', 'heatmap-wrap card');
     var table = el('table', 'heatmap-table');
-
-    /* Group header row */
-    var ghRow = el('tr');
-    ghRow.innerHTML = '<th></th>';
-    ghRow.innerHTML += '<th class="heatmap-group-header" colspan="' + technicalSignals.length + '">' + t('technical') + '</th>';
-    ghRow.innerHTML += '<th class="heatmap-group-header" colspan="' + fundamentalSignals.length + '">' + t('fundamental') + '</th>';
 
     /* Signal header row */
     var shRow = el('tr');
@@ -1258,7 +1313,6 @@ body {
     });
 
     var thead = el('thead');
-    thead.appendChild(ghRow);
     thead.appendChild(shRow);
     table.appendChild(thead);
 
@@ -1373,7 +1427,7 @@ body {
         var rg = el('div', 'risk-grid');
         var metrics = [
           ['Max DD', fmt(rm.max_drawdown, 1) + '%'],
-          ['Volatility', fmt(rm.volatility_pct, 1) + '%'],
+          ['Volatility', fmt(rm.ann_volatility || rm.volatility_pct || 0, 1) + '%'],
           ['Sharpe', fmt(rm.sharpe_ratio)],
           ['Beta', fmt(rm.beta)]
         ];
@@ -1546,9 +1600,6 @@ body {
   function renderDashboard(data) {
     var app = document.getElementById('app');
     app.innerHTML = '';
-    app.style.display = 'grid';
-    app.style.gridTemplateColumns = 'var(--sidebar-w) 1fr';
-    app.style.minHeight = '100vh';
 
     /* Sidebar */
     app.appendChild(renderSidebar(data));
