@@ -1,27 +1,27 @@
 {
   "meta": {
-    "date": "April 07, 2026",
-    "timestamp": "2026-04-07T22:45:52.035224",
+    "date": "April 08, 2026",
+    "timestamp": "2026-04-08T22:47:14.125327",
     "total_scanned": 31,
     "picks_found": 3,
-    "market_regime": "bear"
+    "market_regime": "bull"
   },
   "market": {
     "spy": {
-      "price": 659.22,
-      "change_pct": 0.04
+      "price": 676.01,
+      "change_pct": 2.55
     },
     "qqq": {
-      "price": 588.59,
-      "change_pct": 0.02
+      "price": 606.09,
+      "change_pct": 2.97
     },
     "iwm": {
-      "price": 252.91,
-      "change_pct": 0.22
+      "price": 260.47,
+      "change_pct": 2.99
     },
     "vix": {
-      "price": 25.78,
-      "change_pct": 6.66
+      "price": 21.04,
+      "change_pct": -18.39
     }
   },
   "performance": {
@@ -29,20 +29,6 @@
     "summary": {}
   },
   "news": [
-    {
-      "source": "The Motley Fool",
-      "title": "Broadcom Inks Major AI Chip Deals With Google and Anthropic",
-      "body": "Broadcom Inks Major AI Chip Deals With Google and Anthropic\u00a0\u00a0The Motley Fool",
-      "score": 0,
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3VWM0tFZXVZUmZOLVBkVFpiUzRRTjNzQXoycmNXRkdjQndtelkyNmJRSXp2a3RDaXlIczF6U1NDZ0FuQ1hXRlFFSGtPY3NGOGVhN2JnXzhVU2plZ1Vqd294bW5pbkRXNXdwZVR1VG03TkQ0aHRXaVg0Z3JJUmlPeUFZemhZQ0dnVm5ndGl5MVNCTVBvRS1V?oc=5",
-      "tag": "neutral",
-      "headline": "Broadcom Inks Major AI Chip Deals With Google and Anthropic",
-      "summary": "Broadcom Inks Major AI Chip Deals With Google and Anthropic\u00a0\u00a0The Motley Fool",
-      "insights": [],
-      "insights_ko": [],
-      "headline_ko": "",
-      "summary_ko": ""
-    },
     {
       "source": "Electronics360",
       "title": "AI market drives chip revenue to $830 billion in 2025",
@@ -72,14 +58,14 @@
       "summary_ko": ""
     },
     {
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "title": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom",
-      "body": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom\u00a0\u00a0Bloomberg.com",
+      "body": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom\u00a0\u00a0Bloomberg",
       "score": 0,
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcjNGeFdSTHBIMHpkX2Q2WWV6Y05vaEdhYm1wZEhHLXA5RFBRN1hnVlZPUDRGODJMRU51a2UzVXpPZHlydml2QkVkZUNQLTd6RXVZc05RZzBnWW9DUzhIdmJYNVZwT0lwNlltQ1dwUExCWUFYbm1KWUlFV1dHbVpjWl9VZkwyVE5YcmktdURtOTk2Z3hqdUEyU3VoeDk1LWFLTENyWFJaTmFhMHVnZ0I5QWNJaWc?oc=5",
       "tag": "neutral",
       "headline": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom",
-      "summary": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom\u00a0\u00a0Bloomberg.com",
+      "summary": "TSMC\u2019s Strong Outlook Fires Up Hopes of Sustained AI Boom\u00a0\u00a0Bloomberg",
       "insights": [],
       "insights_ko": [],
       "headline_ko": "",
@@ -98,17 +84,31 @@
       "insights_ko": [],
       "headline_ko": "",
       "summary_ko": ""
+    },
+    {
+      "source": "Fortune",
+      "title": "Why Google wins big in Apple AI deal, while OpenAI loses",
+      "body": "Why Google wins big in Apple AI deal, while OpenAI loses\u00a0\u00a0Fortune",
+      "score": 0,
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWjRUbDB6d01rTVVTNXMtQnBtbVY1M2F6VEJudEl2d29ldUVhUDY2R200NDY3RWtac0IwNzZlVlpYY2JmTzVhVVJ5cGNBZ2dUR1BFTC1RaENFbmxNdXhEaF80OFd6RXZ2N21tbzJ1TlNnT21RaTZ0Y3RXbmtNR19SMjFhVG9wdnBFSXQ2bHdnTV9PNnpmODBuejRR?oc=5",
+      "tag": "neutral",
+      "headline": "Why Google wins big in Apple AI deal, while OpenAI loses",
+      "summary": "Why Google wins big in Apple AI deal, while OpenAI loses\u00a0\u00a0Fortune",
+      "insights": [],
+      "insights_ko": [],
+      "headline_ko": "",
+      "summary_ko": ""
     }
   ],
   "picks": [
     {
-      "ticker": "NVDA",
-      "price": 178.10001,
-      "stars": 3,
-      "score": 64,
-      "template": "Template 2 \u2014 200 EMA Test",
-      "analysis": "RSI at 50 recovering from oversold. Testing 200 EMA at $176.72. ADX 27 \u2014 strong directional trend. Volume flow confirms uptrend (OBV > EMA). Strong uptrend structure: 8 HH, 7 HL in 20 bars. Fundamentals: EPS $4.90, earnings growing 96%. Revenue growing 73% YoY. Fwd PE 16x. Op margin 65% | Net margin 56%. D/E 7 | Current ratio 3.9. ROE 101% | ROA 51%. Consensus: Strong Buy (1.3) | 56 analysts, 51% upside. Institutional 70%. FCF positive | OCF positive. Fwd PE 16x vs sector median 28x. DCF: 71% above fair value. Net insider sales: -1,207,012 shares (90d).",
-      "analysis_ko": "RSI 50 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $4.90, earnings growing 96%, \ub9e4\ucd9c \uc131\uc7a5\ub960 73% YoY, Fwd PE 16x, \uc601\uc5c5\uc774\uc775\ub960 65% | \uc21c\uc774\uc775\ub960 56%, D/E 7 | \uc720\ub3d9\ube44\uc728 3.9, ROE 101% | ROA 51%, \ucee8\uc13c\uc11c\uc2a4: \uc801\uadf9 \ub9e4\uc218 (1.3) | 56 analysts, 51% upside, \uae30\uad00 \ubcf4\uc720\uc728 70%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 16x vs sector median 28x, DCF: 71% above fair value, Net insider sales: -1,207,012 shares (90d). \uc9c4\uc785\uac00 $178.10 | \ubaa9\ud45c\uac00 $188.16 (+5.7%) | \uc190\uc808\uac00 $168.85 | R:R 1.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 -1.0% (\uc2dc\uc7a5 \ub300\ube44 \uc57d\uc138)",
+      "ticker": "RKLB",
+      "price": 69.07,
+      "stars": 2,
+      "score": 46,
+      "template": "Template 2 \u2014 100 EMA Test",
+      "analysis": "RSI at 51 recovering from oversold. Testing 21 EMA at $67.76. Volume 1.5x+ above average. Volume flow confirms uptrend (OBV > EMA). Strong uptrend structure: 8 HH, 10 HL in 20 bars. Accumulation detected (71% up-volume days). Fundamentals: EPS $-0.37. Revenue growing 36% YoY. Fwd PE 1348x. D/E 15 | Current ratio 4.1. Consensus: Buy (1.9) | 14 analysts, 27% upside. Fwd PE 1348x vs sector median 18x (premium). Net insider sales: -357,154 shares (90d).",
+      "analysis_ko": "RSI 51 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uac70\ub798\ub7c9 \uae09\uc99d (\ud3c9\uade0 1.5\ubc30 \uc774\uc0c1). \uae30\uad00 \ub9e4\uc9d1 \uac10\uc9c0. \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $-0.37, \ub9e4\ucd9c \uc131\uc7a5\ub960 36% YoY, Fwd PE 1348x, D/E 15 | \uc720\ub3d9\ube44\uc728 4.1, \ucee8\uc13c\uc11c\uc2a4: \ub9e4\uc218 (1.9) | 14 analysts, 27% upside, Fwd PE 1348x vs sector median 18x (premium), Net insider sales: -357,154 shares (90d). \uc9c4\uc785\uac00 $69.07 | \ubaa9\ud45c\uac00 $74.09 (+7.3%) | \uc190\uc808\uac00 $64.46 | R:R 1.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 -4.0% (\uc2dc\uc7a5 \ub300\ube44 \uc57d\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -28.3% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
       "signals": {
         "Above 50 EMA": false,
         "Above 200 EMA": true,
@@ -116,14 +116,93 @@
         "MACD Bullish": true,
         "RSI Oversold Recovery": true,
         "Squeeze Active": false,
-        "Bouncing off 200 EMA": true,
-        "Volume Surge": false,
+        "Bouncing off 21 EMA": true,
+        "Volume Surge": true,
+        "8 > 21 EMA": false,
+        "Choppy (ADX)": true,
+        "OBV Confirming": true,
+        "Bullish Structure": true,
+        "Accumulation": true,
+        "Earnings": false,
+        "Revenue +36%": true,
+        "Valuation": false,
+        "Margins": false,
+        "Solid Balance Sheet": true,
+        "Capital Efficiency": false,
+        "Strong Analyst Support": true,
+        "Ownership": false,
+        "Cash Flow": false,
+        "PE vs Industrials": false,
+        "Insider Selling": false
+      },
+      "trade": {
+        "entry": 69.07,
+        "stop": 64.46,
+        "target1": 74.09,
+        "target2": 110.61,
+        "risk_pct": 6.7,
+        "target1_pct": 7.3,
+        "target2_pct": 60.1,
+        "rr": 1.1,
+        "stop_method": "Key support level",
+        "pivot": 66.19,
+        "r1": 68.43,
+        "s1": 64.09
+      },
+      "rsi": 50.8546093716235,
+      "squeeze_days": 0,
+      "relative_strength": -4.0,
+      "mandatory": false,
+      "risk_metrics": {
+        "max_drawdown": -43.0,
+        "current_drawdown": -28.3,
+        "ann_volatility": 84.9,
+        "sharpe_ratio": 1.48,
+        "beta": 3.08,
+        "spy_correlation": 0.44
+      },
+      "fund_analysis_parts": [
+        "EPS $-0.37",
+        "Revenue growing 36% YoY",
+        "Fwd PE 1348x",
+        "D/E 15 | Current ratio 4.1",
+        "Consensus: Buy (1.9) | 14 analysts, 27% upside",
+        "Fwd PE 1348x vs sector median 18x (premium)",
+        "Net insider sales: -357,154 shares (90d)"
+      ],
+      "dcf": null,
+      "volume_profile": {
+        "poc": 69.04,
+        "vah": 74.09,
+        "val": 65.11
+      },
+      "relaxed_filter": true,
+      "rank": 1,
+      "caption": "",
+      "chart_file": "charts/RKLB_2026-04-08.png"
+    },
+    {
+      "ticker": "META",
+      "price": 612.41998,
+      "stars": 2,
+      "score": 35,
+      "template": "Template 8 \u2014 Multi-Signal Convergence",
+      "analysis": "RSI at 53 recovering from oversold. Volume 1.5x+ above average. ADX 33 \u2014 strong directional trend. Volume flow confirms uptrend (OBV > EMA). Fundamentals: EPS $23.46, earnings growing 11%. Revenue growing 24% YoY. Fwd PE 17x. Op margin 41% | Net margin 30%. Current ratio 2.6. ROE 30% | ROA 16%. Consensus: Strong Buy (1.3) | 60 analysts, 40% upside. Institutional 79%. FCF positive | OCF positive. Fwd PE 17x vs sector median 22x. DCF: 68% above fair value. Net insider sales: -161,323 shares (90d).",
+      "analysis_ko": "RSI 53 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. MACD \uc0c1\uc2b9 \ucd94\uc138. \uac70\ub798\ub7c9 \uae09\uc99d (\ud3c9\uade0 1.5\ubc30 \uc774\uc0c1). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $23.46, earnings growing 11%, \ub9e4\ucd9c \uc131\uc7a5\ub960 24% YoY, Fwd PE 17x, \uc601\uc5c5\uc774\uc775\ub960 41% | \uc21c\uc774\uc775\ub960 30%, Current ratio 2.6, ROE 30% | ROA 16%, \ucee8\uc13c\uc11c\uc2a4: \uc801\uadf9 \ub9e4\uc218 (1.3) | 60 analysts, 40% upside, \uae30\uad00 \ubcf4\uc720\uc728 79%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 17x vs sector median 22x, DCF: 68% above fair value, Net insider sales: -161,323 shares (90d). \uc9c4\uc785\uac00 $612.42 | \ubaa9\ud45c\uac00 $660.24 (+7.8%) | \uc190\uc808\uac00 $570.79 | R:R 1.1. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 -6.4% (\uc2dc\uc7a5 \ub300\ube44 \uc57d\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -22.5% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
+      "signals": {
+        "Above 50 EMA": false,
+        "Above 200 EMA": false,
+        "Golden Cross": false,
+        "MACD Bullish": true,
+        "RSI Oversold Recovery": true,
+        "Squeeze Active": false,
+        "Volume Surge": true,
         "8 > 21 EMA": false,
         "Strong Trend (ADX)": true,
         "OBV Confirming": true,
         "Bullish Structure": true,
         "Strong Earnings": true,
-        "Revenue +73%": true,
+        "Revenue +24%": true,
         "Valuation": false,
         "Strong Margins": true,
         "Solid Balance Sheet": true,
@@ -131,164 +210,75 @@
         "Strong Analyst Support": true,
         "Strong Ownership": true,
         "Positive Cash Flow": true,
-        "Cheap vs Technology": true,
+        "Cheap vs Communication Services": true,
         "Overvalued (DCF)": false,
         "Insider Selling": false
       },
       "trade": {
-        "entry": 178.1,
-        "stop": 168.85,
-        "target1": 188.16,
-        "target2": 268.22,
-        "risk_pct": 5.2,
-        "target1_pct": 5.7,
-        "target2_pct": 50.6,
+        "entry": 612.42,
+        "stop": 570.79,
+        "target1": 660.24,
+        "target2": 882.27,
+        "risk_pct": 6.8,
+        "target1_pct": 7.8,
+        "target2_pct": 44.1,
         "rr": 1.1,
         "stop_method": "1.5x ATR (aligned with support)",
-        "pivot": 177.06,
-        "r1": 178.37,
-        "s1": 176.34
+        "pivot": 571.68,
+        "r1": 578.6,
+        "s1": 568.13
       },
-      "rsi": 49.9272487167078,
+      "rsi": 53.21935837434644,
       "squeeze_days": 0,
-      "relative_strength": -1.0,
+      "relative_strength": -6.4,
       "mandatory": false,
       "risk_metrics": {
-        "max_drawdown": -20.2,
-        "current_drawdown": -14.0,
-        "ann_volatility": 33.7,
-        "sharpe_ratio": 0.84,
-        "beta": 1.84,
-        "spy_correlation": 0.65
+        "max_drawdown": -33.5,
+        "current_drawdown": -22.5,
+        "ann_volatility": 35.6,
+        "sharpe_ratio": -0.42,
+        "beta": 1.58,
+        "spy_correlation": 0.54
       },
       "fund_analysis_parts": [
-        "EPS $4.90, earnings growing 96%",
-        "Revenue growing 73% YoY",
-        "Fwd PE 16x",
-        "Op margin 65% | Net margin 56%",
-        "D/E 7 | Current ratio 3.9",
-        "ROE 101% | ROA 51%",
-        "Consensus: Strong Buy (1.3) | 56 analysts, 51% upside",
-        "Institutional 70%",
+        "EPS $23.46, earnings growing 11%",
+        "Revenue growing 24% YoY",
+        "Fwd PE 17x",
+        "Op margin 41% | Net margin 30%",
+        "Current ratio 2.6",
+        "ROE 30% | ROA 16%",
+        "Consensus: Strong Buy (1.3) | 60 analysts, 40% upside",
+        "Institutional 79%",
         "FCF positive | OCF positive",
-        "Fwd PE 16x vs sector median 28x",
-        "DCF: 71% above fair value",
-        "Net insider sales: -1,207,012 shares (90d)"
+        "Fwd PE 17x vs sector median 22x",
+        "DCF: 68% above fair value",
+        "Net insider sales: -161,323 shares (90d)"
       ],
       "dcf": {
-        "intrinsic_market_cap": 1256015470640.8018,
-        "discount_pct": -71.0,
-        "wacc_used": 10.0,
-        "growth_rate_used": 15.0,
-        "tv_pct": 74.2
+        "intrinsic_market_cap": 501635275911.06866,
+        "discount_pct": -67.6,
+        "wacc_used": 9.0,
+        "growth_rate_used": 10.7,
+        "tv_pct": 76.0
       },
       "volume_profile": {
-        "poc": 177.06,
-        "vah": 189.85,
-        "val": 174.28
-      },
-      "relaxed_filter": true,
-      "rank": 1,
-      "caption": "",
-      "chart_file": "charts/NVDA_2026-04-07.png"
-    },
-    {
-      "ticker": "AMD",
-      "price": 221.53,
-      "stars": 3,
-      "score": 63,
-      "template": "Template 8 \u2014 Multi-Signal Convergence",
-      "analysis": "Volume flow confirms uptrend (OBV > EMA). Strong uptrend structure: 12 HH, 11 HL in 20 bars. Fundamentals: EPS $2.62, earnings growing 217%. Revenue growing 34% YoY. Fwd PE 21x. Op margin 17% | Net margin 13%. D/E 6 | Current ratio 2.9. Consensus: Strong Buy (1.6) | 46 analysts, 31% upside. Institutional 72%. FCF positive | OCF positive. Fwd PE 21x vs sector median 28x. DCF: 73% above fair value. Net insider sales: -262,668 shares (90d).",
-      "analysis_ko": "RSI 60. MACD \uc0c1\uc2b9 \ucd94\uc138. 50\uc77c\uc120 > 200\uc77c\uc120 (\uace8\ub4e0\ud06c\ub85c\uc2a4). \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $2.62, earnings growing 217%, \ub9e4\ucd9c \uc131\uc7a5\ub960 34% YoY, Fwd PE 21x, \uc601\uc5c5\uc774\uc775\ub960 17% | \uc21c\uc774\uc775\ub960 13%, D/E 6 | \uc720\ub3d9\ube44\uc728 2.9, \ucee8\uc13c\uc11c\uc2a4: \uc801\uadf9 \ub9e4\uc218 (1.6) | 46 analysts, 31% upside, \uae30\uad00 \ubcf4\uc720\uc728 72%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 21x vs sector median 28x, DCF: 73% above fair value, Net insider sales: -262,668 shares (90d). \uc9c4\uc785\uac00 $221.53 | \ubaa9\ud45c\uac00 $242.06 (+9.3%) | \uc190\uc808\uac00 $207.04 | R:R 1.4. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 +11.7% (\uc2dc\uc7a5 \ub300\ube44 \uac15\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -16.2% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
-      "signals": {
-        "Above 50 EMA": true,
-        "Above 200 EMA": true,
-        "Golden Cross": true,
-        "MACD Bullish": true,
-        "RSI Neutral": true,
-        "Squeeze Active": false,
-        "Volume Surge": false,
-        "8 > 21 EMA": true,
-        "OBV Confirming": true,
-        "Bullish Structure": true,
-        "Weekly Trend Aligned": true,
-        "Strong Earnings": true,
-        "Revenue +34%": true,
-        "Valuation": false,
-        "Strong Margins": true,
-        "Solid Balance Sheet": true,
-        "Capital Efficiency": false,
-        "Strong Analyst Support": true,
-        "Strong Ownership": true,
-        "Positive Cash Flow": true,
-        "Cheap vs Technology": true,
-        "Overvalued (DCF)": false,
-        "Insider Selling": false
-      },
-      "trade": {
-        "entry": 221.53,
-        "stop": 207.04,
-        "target1": 242.06,
-        "target2": 305.22,
-        "risk_pct": 6.5,
-        "target1_pct": 9.3,
-        "target2_pct": 37.8,
-        "rr": 1.4,
-        "stop_method": "1.5x ATR (aligned with support)",
-        "pivot": 221.41,
-        "r1": 225.08,
-        "s1": 216.5
-      },
-      "rsi": 59.681160189362586,
-      "squeeze_days": 0,
-      "relative_strength": 11.7,
-      "mandatory": false,
-      "risk_metrics": {
-        "max_drawdown": -27.8,
-        "current_drawdown": -16.2,
-        "ann_volatility": 61.4,
-        "sharpe_ratio": 1.36,
-        "beta": 2.45,
-        "spy_correlation": 0.48
-      },
-      "fund_analysis_parts": [
-        "EPS $2.62, earnings growing 217%",
-        "Revenue growing 34% YoY",
-        "Fwd PE 21x",
-        "Op margin 17% | Net margin 13%",
-        "D/E 6 | Current ratio 2.9",
-        "Consensus: Strong Buy (1.6) | 46 analysts, 31% upside",
-        "Institutional 72%",
-        "FCF positive | OCF positive",
-        "Fwd PE 21x vs sector median 28x",
-        "DCF: 73% above fair value",
-        "Net insider sales: -262,668 shares (90d)"
-      ],
-      "dcf": {
-        "intrinsic_market_cap": 99118466640.49417,
-        "discount_pct": -72.6,
-        "wacc_used": 10.0,
-        "growth_rate_used": 15.0,
-        "tv_pct": 74.2
-      },
-      "volume_profile": {
-        "poc": 199.07,
-        "vah": 217.14,
-        "val": 193.04
+        "poc": 650.78,
+        "vah": 684.34,
+        "val": 572.47
       },
       "relaxed_filter": true,
       "rank": 2,
       "caption": "",
-      "chart_file": "charts/AMD_2026-04-07.png"
+      "chart_file": "charts/META_2026-04-08.png"
     },
     {
       "ticker": "TSLA",
-      "price": 346.64999,
+      "price": 343.25,
       "stars": 1,
       "score": 8,
       "template": "Template 8 \u2014 Multi-Signal Convergence",
-      "analysis": "RSI at 35 recovering from oversold. ADX 34 \u2014 strong directional trend. Fundamentals: EPS $1.09, earnings declining -61%. Revenue growing -3% YoY. Fwd PE 123x. D/E 18 | Current ratio 2.2. Consensus: Hold (2.4) | 41 analysts, 20% upside. Insider 11.1%. FCF positive | OCF positive. Fwd PE 123x vs sector median 20x (premium). DCF: 97% above fair value. Net insider sales: -53,804 shares (90d).",
-      "analysis_ko": "RSI 35 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $1.09, earnings declining -61%, \ub9e4\ucd9c \uc131\uc7a5\ub960 -3% YoY, Fwd PE 123x, D/E 18 | \uc720\ub3d9\ube44\uc728 2.2, Consensus: Hold (2.4) | 41 analysts, 20% upside, \ub0b4\ubd80\uc790 \ubcf4\uc720\uc728 11.1%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 123x vs sector median 20x (premium), DCF: 97% above fair value, Net insider sales: -53,804 shares (90d). \uc9c4\uc785\uac00 $346.65 | \ubaa9\ud45c\uac00 $378.02 (+9.0%) | \uc190\uc808\uac00 $319.89 | R:R 1.2. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 -10.5% (\uc2dc\uc7a5 \ub300\ube44 \uc57d\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -29.2% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
+      "analysis": "RSI at 34 recovering from oversold. ADX 32 \u2014 strong directional trend. Fundamentals: EPS $1.07, earnings declining -61%. Revenue growing -3% YoY. Fwd PE 122x. D/E 18 | Current ratio 2.2. Consensus: Hold (2.4) | 41 analysts, 21% upside. Insider 11.1%. FCF positive | OCF positive. Fwd PE 122x vs sector median 20x (premium). DCF: 97% above fair value. Net insider sales: -53,804 shares (90d).",
+      "analysis_ko": "RSI 34 - \uacfc\ub9e4\ub3c4\uc5d0\uc11c \ud68c\ubcf5 \uc911. \uc0c1\uc2b9 \ucd94\uc138 \uad6c\uc870 \ud655\uc778. \ud380\ub354\uba58\ud138: EPS $1.07, earnings declining -61%, \ub9e4\ucd9c \uc131\uc7a5\ub960 -3% YoY, Fwd PE 122x, D/E 18 | \uc720\ub3d9\ube44\uc728 2.2, Consensus: Hold (2.4) | 41 analysts, 21% upside, \ub0b4\ubd80\uc790 \ubcf4\uc720\uc728 11.1%, \uc789\uc5ec\ud604\uae08\ud750\ub984 \uc591\ud638, Fwd PE 122x vs sector median 20x (premium), DCF: 97% above fair value, Net insider sales: -53,804 shares (90d). \uc9c4\uc785\uac00 $343.25 | \ubaa9\ud45c\uac00 $377.06 (+9.8%) | \uc190\uc808\uac00 $306.35 | R:R 0.9. S&P \ub300\ube44 \uc0c1\ub300\uac15\ub3c4 -15.8% (\uc2dc\uc7a5 \ub300\ube44 \uc57d\uc138). \ud604\uc7ac \uace0\uc810 \ub300\ube44 -29.9% \ud558\ub77d \uc911 - \uc8fc\uc758 \ud544\uc694",
       "signals": {
         "Above 50 EMA": false,
         "Above 200 EMA": false,
@@ -300,6 +290,7 @@
         "8 > 21 EMA": false,
         "Strong Trend (ADX)": true,
         "Bullish Structure": true,
+        "High Volatility": true,
         "Weekly Downtrend": true,
         "Earnings": true,
         "Revenue Declining": false,
@@ -315,40 +306,40 @@
         "Insider Selling": false
       },
       "trade": {
-        "entry": 346.65,
-        "stop": 319.89,
-        "target1": 378.02,
-        "target2": 511.66,
-        "risk_pct": 7.7,
-        "target1_pct": 9.0,
-        "target2_pct": 47.6,
-        "rr": 1.2,
-        "stop_method": "1.5x ATR (aligned with support)",
-        "pivot": 355.73,
-        "r1": 364.81,
-        "s1": 343.73
+        "entry": 343.25,
+        "stop": 306.35,
+        "target1": 377.06,
+        "target2": 503.88,
+        "risk_pct": 10.8,
+        "target1_pct": 9.8,
+        "target2_pct": 46.8,
+        "rr": 0.9,
+        "stop_method": "2.0x ATR (aligned with support)",
+        "pivot": 343.97,
+        "r1": 350.7,
+        "s1": 339.92
       },
-      "rsi": 34.69866459938824,
+      "rsi": 33.70058548737458,
       "squeeze_days": 0,
-      "relative_strength": -10.5,
+      "relative_strength": -15.8,
       "mandatory": true,
       "risk_metrics": {
-        "max_drawdown": -29.2,
-        "current_drawdown": -29.2,
-        "ann_volatility": 44.8,
-        "sharpe_ratio": 0.33,
-        "beta": 2.04,
-        "spy_correlation": 0.55
+        "max_drawdown": -29.9,
+        "current_drawdown": -29.9,
+        "ann_volatility": 43.8,
+        "sharpe_ratio": 0.07,
+        "beta": 1.95,
+        "spy_correlation": 0.54
       },
       "fund_analysis_parts": [
-        "EPS $1.09, earnings declining -61%",
+        "EPS $1.07, earnings declining -61%",
         "Revenue growing -3% YoY",
-        "Fwd PE 123x",
+        "Fwd PE 122x",
         "D/E 18 | Current ratio 2.2",
-        "Consensus: Hold (2.4) | 41 analysts, 20% upside",
+        "Consensus: Hold (2.4) | 41 analysts, 21% upside",
         "Insider 11.1%",
         "FCF positive | OCF positive",
-        "Fwd PE 123x vs sector median 20x (premium)",
+        "Fwd PE 122x vs sector median 20x (premium)",
         "DCF: 97% above fair value",
         "Net insider sales: -53,804 shares (90d)"
       ],
@@ -360,38 +351,38 @@
         "tv_pct": 70.5
       },
       "volume_profile": {
-        "poc": 403.72,
-        "vah": 430.67,
-        "val": 380.36
+        "poc": 400.75,
+        "vah": 436.8,
+        "val": 381.87
       },
       "rank": 3,
       "caption": "",
-      "chart_file": "charts/TSLA_2026-04-07.png"
+      "chart_file": "charts/TSLA_2026-04-08.png"
     }
   ],
   "pick_history": [
     {
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "picks": [
         {
-          "ticker": "NVDA",
-          "entry": 178.1,
-          "target1": 188.16,
-          "stop": 168.85,
-          "stars": 3
+          "ticker": "RKLB",
+          "entry": 69.07,
+          "target1": 74.09,
+          "stop": 64.46,
+          "stars": 2
         },
         {
-          "ticker": "AMD",
-          "entry": 221.53,
-          "target1": 242.06,
-          "stop": 207.04,
-          "stars": 3
+          "ticker": "META",
+          "entry": 612.42,
+          "target1": 660.24,
+          "stop": 570.79,
+          "stars": 2
         },
         {
           "ticker": "TSLA",
-          "entry": 346.65,
-          "target1": 378.02,
-          "stop": 319.89,
+          "entry": 343.25,
+          "target1": 377.06,
+          "stop": 306.35,
           "stars": 1
         }
       ]
@@ -401,12 +392,12 @@
     "AI / Semiconductors": [
       {
         "ticker": "NVDA",
-        "picked": true,
+        "picked": false,
         "news_driven": false
       },
       {
         "ticker": "AMD",
-        "picked": true,
+        "picked": false,
         "news_driven": false
       },
       {
@@ -448,7 +439,7 @@
       },
       {
         "ticker": "META",
-        "picked": false,
+        "picked": true,
         "news_driven": false
       },
       {
@@ -497,7 +488,7 @@
       },
       {
         "ticker": "RKLB",
-        "picked": false,
+        "picked": true,
         "news_driven": false
       },
       {
